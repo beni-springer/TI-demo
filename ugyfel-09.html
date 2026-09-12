@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fehér Cukrászda – Eger</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin:0; font:16px/1.6 system-ui, sans-serif; color:#222; }
+  header, main, footer { max-width:820px; margin:0 auto; padding:24px 20px; }
+  header { border-bottom:1px solid #e2e2e2; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .tag { color:#666; font-size:14px; }
+  footer { border-top:1px solid #e2e2e2; color:#666; font-size:14px; }
+  #velemenyek-mount { min-height:120px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Fehér Cukrászda</h1>
+  <p class="tag">Kézműves sütemények és esküvői torták – Eger</p>
+</header>
+
+<main>
+  <h2>Kínálat</h2>
+  <p>Napi frissen készülő klasszikus és modern sütemények, glutén- és
+     laktózmentes változatban is. Kávékülönlegességek helyi pörkölőtől.</p>
+
+  <h2>Rendelésre készült torták</h2>
+  <p>Esküvői, ballagási és születésnapi tortákat egyedi tervezéssel készítünk.
+     Rendelést legalább tíz nappal a szállítás előtt tudunk felvenni.</p>
+
+  <h2>Vélemények</h2>
+  <!-- A widget kódja NEM statikusan van jelen: kliensoldali JS szúrja be
+       késleltetve. Lásd: ugyfel-09-reviews.js -->
+  <div id="velemenyek-mount"></div>
+</main>
+
+<footer>
+  <p>Fehér Cukrászda Kft. · 3300 Eger, Példa utca 5. · +36 36 000 000</p>
+</footer>
+
+<script src="ugyfel-09-reviews.js"></script>
+
+</body>
+</html>
